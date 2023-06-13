@@ -1,0 +1,57 @@
+
+.login-box{
+    max-width:700px;
+    float:none;
+    margin: 80px auto;
+    padding-left: 100px;
+    
+}
+.col-md-6
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 2px double rgb(180, 147, 159);
+    width: 400px;
+    background-image: url(images/bbb.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.col-md-6 h2
+{
+    font-size: 25px;
+}
+.label
+{
+    font-size: 17px;
+}
+
+.labels
+{
+    color: aliceblue;
+    text-decoration-style:solid;
+    
+}
+.form-control
+{
+    border:3px solid #994d6a;
+    width: 300px;
+    height: 50px;
+}
+#add-categories
+{
+   font-size: 20px;
+}
+.signup-button
+{
+    border:3px solid #994d6a;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}

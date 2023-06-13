@@ -1,0 +1,111 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+body{
+    font-family: sans-serif;
+    
+}
+/* -----------------------------NAVIGATIOIN BAR STARTS------------------------------------*/
+header{
+    position: relative;
+    z-index: 100;
+    
+}
+.navbar{
+    background-color: #673d4d;
+    height:80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 50;
+    position:relative; 
+}
+
+.logo{
+    color:white;
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+
+nav{
+    align-items: right;
+    padding-right: 100px;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    
+}
+nav ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+nav ul li a{
+    
+    font-size: 15px;
+    text-align: right;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(226, 155, 155);
+    text-decoration: none;
+
+    
+}
+.sub_categories{
+    display: none;
+}
+.fa-caret-down
+{
+    padding-left: 2px;
+}
+nav ul li:hover .sub_categories
+{
+    display: block;
+    position:absolute;
+    left:0;
+    top:100%;
+    background-color:#673d4d;
+}
+nav ul li:hover .sub_categories ul{
+    display: block;
+    margin:15px;
+    padding: 5px;
+
+}
+
+nav ul li:hover .sub_categories ul li{
+    width:100px;
+    padding:10px;
+    
+}
+.sub_categories ul li a{
+    text-decoration: none;
+    
+}
+.fa-caret-right
+{
+    float: right;
+    margin-right:0;
+}
+.sub_furnitures
+{
+    display: none;
+}
+.sub_categories ul li:hover .sub_furnitures
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 102px;
+    background-color: #0C7387;
+}
